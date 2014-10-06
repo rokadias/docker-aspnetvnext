@@ -1,4 +1,4 @@
-docker-aspnetvnext
+Aspnet Vnext Docker Image
 ==================
 
 * This repository hosts the Dockerfile used to create the image at [https://registry.hub.docker.com/u/rokadias/aspnetvnext/]. Compared to other aspnetvnext docker images this does not include samples to run and expects those files to be outside of the docker image.

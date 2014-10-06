@@ -11,9 +11,11 @@ Aspnet Vnext Docker Image
 * Pulling the image
   `docker pull rokadias/aspnetvnext`
 * or clone repository and build docker image
-  `git clone https://github.com/rokadias/docker-aspnetvnext.git ~/docker-aspnetvnext`
-  `cd ~/docker-aspnetvnext`
-  `docker build --tag rokadias/aspnetvnext .`
+  ```
+  git clone https://github.com/rokadias/docker-aspnetvnext.git ~/docker-aspnetvnext
+  cd ~/docker-aspnetvnext
+  docker build --tag rokadias/aspnetvnext .
+  ```
 
 # Getting source code for running with aspnetvnext (Optional)
 This is optional in case you would like to use as sample aspnet site.

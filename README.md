@@ -17,11 +17,13 @@ docker-aspnetvnext
 
 # Getting source code for running with aspnetvnext (Optional)
 This is optional in case you would like to use as sample aspnet site.
-  `mkdir ~/aspnet
+  ```
+  mkdir ~/aspnet
   cd ~/aspnet
   git clone https://github.com/davidfowl/HelloWorldVNext.git
   cd HelloWorldVNext/src
-  ln -s helloworldweb web`
+  ln -s helloworldweb web
+  ```
 
 The last bit is to make sure there is a folder under the root of the project to /src/web that represents what website to run. Feel free to do the same with any of the samples under [https://github.com/aspnet/Home].
 
